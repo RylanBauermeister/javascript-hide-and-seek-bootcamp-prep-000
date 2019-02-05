@@ -19,5 +19,5 @@ function increaseRankBy(n){
   var ranks = document.querySelectorAll(".ranked-list");
   for(let rank of ranks){
     rank.innerHTML = parseInt(element.innerHTML) + n;
-  };
+  }
 }
